@@ -13,6 +13,7 @@ browserify src/js/theme/index.js | uglifyjs -mc > _assets/website/theme.js
 
 # Compile Website CSS
 lessc -clean-css src/less/website.less _assets/website/style.css
+lessc -clean-css src/less/website.less _book/gitbook/style.css
 
 # Compile eBook CSS
 lessc -clean-css src/less/ebook.less _assets/ebook/ebook.css

@@ -1,5 +1,5 @@
 .DS_Store
-.idea
-_book
-docs
-node_modules
+#.idea
+             #_book
+             #docs
+             #node_modules

@@ -13,6 +13,7 @@
 @import "website/markup.less";
 @import "website/navigation.less";
 @import "website/search.less";
+@import "website/style.less";
 
 * {
     .box-sizing(border-box);
@@ -43,3 +44,20 @@ body {
     letter-spacing: .2px;
     .text-adjust(100%);
 }
+
+/**
+* 自定义css
+**/
+
+.bookBc-header{ height:50px; line-height: 50px; width:100%;background:#0d498a; border-top:solid 2px #ff6600; }
+.bookBc-headLogo{ color:#f0f0f0; font-size:20px; margin-left:12px; }
+#book-header>a.js-toolbar-action:nth-child(even){ display: none;}
+#book-header>a.js-toolbar-action{ padding: 0 5px 0 10px;}
+.bookBc_wd{ margin-left:6px; font-size:18px; color:#aaa; font-family: "Trebuchet MS", Verdana, sans-serif}
+.bookBc_left, .bookBc_right{ top:50px;}
+.bookBc_left{ padding-top:13px; padding-left:14px; width:240px;}
+.bookBc_right{ padding-top:13px;}
+.summary>.chapter{ background:url("../imgs/summary_circle.png") 3px 17px no-repeat;}
+.book-summary ul.summary li.active>a{ color:#0d498a;}
+
+@media(min-width: 600px){ .book.with-summary .bookBc_right{ left:240px;} }

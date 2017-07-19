@@ -1,0 +1,28 @@
+{
+	"variables": {
+		"title": "前端工程师文档",
+		"theme": "theme-gray",
+		"copyright": "Copyright 2015 f2edocs.com",
+	  	"linkHref": "./src/css/style.css",
+	  	"script": "./src/js/script.js",
+	  	"scriptBase": "./src/js/jquery-1.7.2.js"
+	},
+	"collapsible_menu":true,
+	"level_number":false,
+	"links": {
+		"gitbook": false,
+		"sharing": {
+			"all":false,
+			"vk": false,
+			"facebook": true,
+			"twitter": true,
+			"google": true,
+			"weibo": true
+		}
+	},
+  	"plugin": [
+	  "splitter",
+	  "toggle-chapters",
+	  "ebook-convert"
+	]
+}

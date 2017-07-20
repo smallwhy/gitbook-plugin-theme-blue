@@ -6,7 +6,8 @@
 	  	"linkHref": "./src/css/style.css",
 	  	"script": "./src/js/script.js",
 	  	"scriptBase": "./src/js/jquery-1.7.2.js",
-	  	"imgPath": "./src/imgs/summary_circle.png"
+	  	"imgPath": "./src/imgs/summary_circle.png",
+	  	"shlName": "曹妃甸职业技术学院"
 	},
 	"collapsible_menu":true,
 	"level_number":false,

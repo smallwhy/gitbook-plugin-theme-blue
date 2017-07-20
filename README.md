@@ -12,9 +12,10 @@ This is the default theme for GitBook since version `3.0.0`. It can be used as a
    "variables": {
    	  	"shlName": "曹妃甸职业技术学院"
    	} 
+   	
    	//添加插件
    	"plugins": [
-    		"theme-blue@1.0.13"
+        "theme-blue@1.0.13"
     ],
     "pluginsConfig": {
         "theme-blue": {

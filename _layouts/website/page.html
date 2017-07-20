@@ -12,7 +12,7 @@
     {% if page.previous and page.previous.path %}
     <link rel="prev" href="{{ page.previous.path|resolveFile }}" />
     {% endif %}
-    <link rel="stylesheet" href="../../src/css/style1.css" />aa
+    <link rel="stylesheet" href="../../src/css/style1.css" />
 {% endblock %}
 
 {% block javascript %}
@@ -33,7 +33,6 @@
         <span class="bookBc_wd">教务文档</span>
     </div>
     <div class="book-summary bookBc_left">
-        <img src="{{book.imgPath}}" />
         {% block book_sidebar %}
             {% block search_input %}{% endblock %}
             {% block book_summary %}

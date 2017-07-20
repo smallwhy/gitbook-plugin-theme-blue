@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-theme-blue",
   "description": "Blue theme for GitBook",
   "main": "./index.js",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "engines": {
     "gitbook": ">=3.0.0"
   },

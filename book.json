@@ -3,7 +3,6 @@
 		"title": "前端工程师文档",
 		"theme": "theme-gray",
 		"copyright": "Copyright 2015 f2edocs.com",
-	  	"linkHref": "./src/css/style1.css",
 	  	"shlName": "曹妃甸职业技术学院"
 	},
 	"collapsible_menu":true,

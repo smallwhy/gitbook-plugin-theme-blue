@@ -6,9 +6,6 @@
             {% elif article.url %}
                 <a target="_blank" href="{{ article.url }}">
             {% else %}
-            {% if article.articles.length > 0 %}
-                <img src="{{ "images/summary_circle.png"|resolveAsset }}" />
-            {% endif %}
                 <span>
             {% endif %}
                     {% if article.level != "0" and config.pluginsConfig['theme-default'].showLevel %}

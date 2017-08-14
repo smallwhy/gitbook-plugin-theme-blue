@@ -3,6 +3,7 @@ var keyboard =   require('./keyboard');
 var navigation = require('./navigation');
 var sidebar =    require('./sidebar');
 var toolbar =    require('./toolbar');
+var addscript =    require('./script');
 
 var gitbook = window.gitbook;
 
@@ -36,3 +37,4 @@ gitbook.keyboard = keyboard;
 gitbook.navigation = navigation;
 gitbook.sidebar = sidebar;
 gitbook.toolbar = toolbar;
+gitbook.addscript = addscript;

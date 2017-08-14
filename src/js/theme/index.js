@@ -29,6 +29,9 @@ function init() {
             sidebar.toggle();
         }
     });
+
+    // menu collapose
+    addscript.init();
 }
 
 gitbook.events.on('start', init);

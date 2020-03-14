@@ -10,7 +10,7 @@ This is the default theme for GitBook since version `3.0.0`. It can be used as a
 ```
     //添加变量
    "variables": {
-   	  	"shlName": "曹妃甸职业技术学院"
+   	  	"shlName": "名称。。。"
    	} 
    	
    	//添加插件

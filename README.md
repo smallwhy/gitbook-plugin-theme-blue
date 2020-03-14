@@ -19,7 +19,7 @@ This is the default theme for GitBook since version `3.0.0`. It can be used as a
     ],
     "pluginsConfig": {
         "theme-blue": {
-            "url": "https://github.com/wanghaiyangithub/gitbook-plugin-theme-blue"
+            "url": "https://github.com/smallwhy/gitbook-plugin-theme-blue"
         }
     }
 ```
